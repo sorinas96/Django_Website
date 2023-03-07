@@ -58,6 +58,15 @@ class PetUpdate(generic.UpdateView):
     context_object_name = "pets"
     success_url = reverse_lazy("pets_list")
 
+#UPDATE PET
+class HeroesUpdate(generic.UpdateView):
+    model = Pets
+    template_name = "adoption/heroes_form.html"
+    fields=['name','breed','gender','color','age','poster']
+    context_object_name = "heroes"
+    success_url = reverse_lazy("pets_heroes")
+
+
 
 
  # ADD PET

@@ -59,9 +59,10 @@
                             my color is {{heroes.color}}.
                            <tr>Am I vaccinated? "{{heroes.vaccinated}}".</tr>
                             <tr> Am I neutered ? "{{heroes.spayed_neutered}}". </tr>
-                            <tr> As you can see I am ready to go home with you!</tr>
+                            <tr> As a service dog, I am specially trained to help people with disabilities in a variety of ways.  </tr>
                             <a href="">.</a>
                             <a class="btn btn-primary" href="{% url 'heroes_delete' heroes.id %}">Delete</a>
+                            <a class="btn btn-primary" href="{% url 'heroes_update' heroes.id %}">Update</a>
                         </p>
                     </div>
 

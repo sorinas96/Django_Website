@@ -41,9 +41,10 @@
             <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
                 <div class="d-flex justify-content-center">
                     <div class="text-center">
-                        <h1 class="mx-auto my-0 text-uppercase">Adopt me!</h1>
-                        <h2 class="text-white-50 mx-auto mt-2 mb-5">I am looking for a lovely family. Scroll down to find me.</h2>
+                        <h1 class="mx-auto my-0 text-uppercase">Service Dogs adoption !</h1>
+                        <h2 class="text-white-50 mx-auto mt-2 mb-5">Woof! Hi there, we're service dogs and we're so excited to be a part of your family!</h2>
                         <a class="btn btn-primary" href="#about">Get to know us</a>
+                        <a class="btn btn-primary" href="{% url 'pets_list' %}">Home</a>
                     </div>
                 </div>
             </div>
@@ -55,13 +56,13 @@
                     <div class="col-lg-8">
                         <h2 class="text-white mb-4">About us:</h2>
                         <p class="text-white-50">
-                            We are different breeds of dogs and cats, and we weren't that lucky in finding a family. We are confident that we will find our forever home soon; just check us out. We are really cute!
+                          As service dogs, we are highly trained to perform a variety of tasks to assist individuals with disabilities. Whether it's guiding someone with vision impairment, alerting someone with hearing impairment, or providing mobility assistance, we are here to help.
                             <a href="">.</a>
 
                         </p>
                     </div>
                 </div>
-                <img class="img-fluid" src="https://t3.ftcdn.net/jpg/03/16/42/22/360_F_316422277_s4yn3aOAojJnQPZE1SfKOFIPvSKqCxjv.jpg" alt="..." />
+                <img class="img-fluid" src="https://media.istockphoto.com/id/465435916/photo/malinois-belgian-shepherd-dog-studio-portrait-gray-background.jpg?s=170667a&w=0&k=20&c=cobZXF79UoL-6v6bxMapbhw6roFA-Inu6QiceKxY_jk=" alt="..." />
             </div>
         </section>
         <!-- Projects-->
@@ -76,6 +77,7 @@
                             <div class="featured-text text-center text-lg-left">
                                 <h4><a href="{% url 'heroes_details' hero.id %}">{{ hero.name }}</a></h4>
                                 <p class="text-black-50 mb-0">Click on my name to find more about me!</p>
+
                             </div>
                         </div>
                     </div>
