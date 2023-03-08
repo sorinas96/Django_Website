@@ -20,7 +20,7 @@ Once the server is running, you should be able to access the website
 by navigating to http://127.0.0.1:8000/adoption/pets/#about in your 
 web browser.
 
-   2. Usage\
+2. Usage\
  This Adoption Site allows you to search for adoptable pets.
 When the user accesses the site, they are greeted with four buttons 
 located in the top right corner of the page. These are:
