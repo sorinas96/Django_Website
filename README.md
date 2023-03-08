@@ -25,10 +25,10 @@ web browser.
 When the user accesses the site, they are greeted with four buttons 
 located in the top right corner of the page. These are:
 
-      "About" - a brief description of the site,\
-      "Pets" - redirects to a list of animals available for adoption,\
-      "Heroes in Action" - redirects to a list of animals specially trained for people with disabilities for adoption,\
-      "Adopt" - redirects to a contact form to continue the adoption process, with the user being contacted later for details.\
+      a) "About" - a brief description of the site,\
+      b) "Pets" - redirects to a list of animals available for adoption,\
+      c) "Heroes in Action" - redirects to a list of animals specially trained for people with disabilities for adoption,\
+      d) "Adopt" - redirects to a contact form to continue the adoption process, with the user being contacted later for details.
 
    If the user clicks on the "Pets" button, they are redirected to a list of animals available for adoption. The name and image of each animal are displayed. If the user wants to see more details about a specific animal, they need to click on its name, which will display more information such as age, breed, color, and vaccination and sterilization status.
 On the animal detail page, the user can update or delete the animal from the database. There is also the possibility to add animals at the bottom of the main page.\
